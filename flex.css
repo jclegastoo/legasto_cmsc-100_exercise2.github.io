@@ -1,0 +1,157 @@
+@import url('clash-display.css');
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    width: 100%;
+    background-color: #0a0e27;
+    padding: 65px;
+    box-sizing: border-box;
+    flex-wrap: nowrap; 
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    background-color: #0f172a;
+    padding: 65px;
+    box-sizing: border-box;
+    flex-wrap: nowrap; 
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f172a;
+    flex-direction: row;
+    border-bottom: 2px solid #1e293b;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav_bar span {
+    color: white;
+    font-size: 18px;
+}
+
+.nav_bar .nav_links {
+    font-family: 'ClashDisplay-Regular';
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_bar .nav_links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.text-container {
+    flex: 1;         
+    max-width: 60%;   
+    margin: 0;
+    margin-top: 135px;        
+}
+
+
+.title {
+    color: white;
+    font-family: 'ClashDisplay-Bold';
+    font-size: 65px;
+    margin-top: 0;  
+    margin-bottom: 20px;
+}
+
+.about-me {
+    font-family: 'ClashDisplay-Medium';
+    color: #bfdbfe;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.autobiography {
+    font-family: 'ClashDisplay-Light';
+    color:#dbeafe;
+    font-size: 23px;
+}
+
+.find-me {
+    font-family: 'ClashDisplay-Light';
+    color:#dbeafe;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.picture {
+    flex: 0 0 auto;
+    width: 35%;       
+    max-width: 500px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 100px;
+    box-shadow: 0 0 15px 5px #ffffff; 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.logo-container {
+    display: flex;
+    gap: 20px;
+}
+
+#facebook-logo {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 25%;
+}
+
+#linkedin-logo {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 25%;
+}
+
+#github-logo {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    fill: white;
+    margin-top: 3px;
+}
+
+#facebook-logo:hover {
+    border: 2px solid #bfdbfe;
+    fill: #bfdbfe;
+    cursor: pointer; 
+}
+
+#linkedin-logo:hover {
+    border: 2px solid #bfdbfe;
+    fill: #bfdbfe;
+    cursor: pointer;
+}
+
+#github-logo:hover {
+    fill: #bfdbfe;
+    cursor: pointer;
+}
+
+.text-container2{
+    text-align: center;
+}
+
+#skills {
+    font-family: 'ClashDisplay-Bold';
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
